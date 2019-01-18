@@ -1,7 +1,12 @@
 *☝ Note that this project is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
 
-
+| Algorithm | C | CPP | Java | Python | Golang | JavaScript | C# |
+|:--------------|:----------------:|:----------------:|:----------------:|:-----------------:|:-----------------:|:-----------------:| :-----------------:|
+| [Bin Sort](http://www.cdn.geeksforgeeks.org/bucket-sort-2/)| [:white_check_mark:](bin_sort/bin_sort.c) | |[:white_check_mark:](bin_sort/BinSort.java) | [:white_check_mark:](bin_sort/bin_sort.py) | [:white_check_mark:](bin_sort/bin_sort.go) | | |
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:](binary_search/binary_search.c) | | [:white_check_mark:](binary_search/BinarySearch.java) | [:white_check_mark:](binary_search/binary_search.py) | [:white_check_mark:](binary_search/binary_search.go) | [:white_check_mark:](binary_search/binarySearch.js) | [:white_check_mark:](binary_search/BinarySearch.cs) |
+| [Breadth First Search](https://en.wikipedia.org/wiki/Breadth-first_search) | | | [:white_check_mark:](breadth_first_search/BreadthFirstSearch.java) |[:white_check_mark:](breadth_first_search/breadth_first_search.py) | | | |
+| [Breadth First Traversal](https://www.cs.bu.edu/teaching/c/tree/breadth-first/) | | |  |[:white_check_mark:](breadth_first_traversal/breadth_first_traversal.py) | | | |
 
 ## Useful Information
 
