@@ -3,7 +3,7 @@ only and it is **not** meant to be used for production.*
 
 | Algorithm | C# |
 |:--------------|:----------------:|
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | | | [:white_check_mark:](merge_sort/MergeSort.cs  ) 
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) |  [:white_check_mark:]() 
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | | | [:white_check_mark:]( )
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | | | [:white_check_mark:]( )
 
