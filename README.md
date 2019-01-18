@@ -3,8 +3,9 @@ only and it is **not** meant to be used for production.*
 
 | Algorithm | C# |
 |:--------------|:----------------:|
-| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | [:white_check_mark:](bin_sort/BinSort.java) | [:white_check_mark:](bin_sort/bin_sort.py) | [:white_check_mark:](bin_sort/bin_sort.go) | | |
-| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:](binary_search/binary_search.c)
+| [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) | | | [:white_check_mark:](  ) 
+| [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | | | [:white_check_mark:]( )
+| [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | | | [:white_check_mark:]( )
 
 ## Useful Information
 
