@@ -1,7 +1,7 @@
 *☝ Note that this project is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
 
-| Algorithm  C# |
+| Algorithm | C# |
 |:--------------|:----------------:|
 | [Bubble](   )| [:white_check_mark:]() | |[:white_check_mark:](bin_sort/BinSort.java) | [:white_check_mark:](bin_sort/bin_sort.py) | [:white_check_mark:](bin_sort/bin_sort.go) | | |
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:](binary_search/binary_search.c) | | [:white_check_mark:](binary_search/BinarySearch.java) | [:white_check_mark:](binary_search/binary_search.py) | [:white_check_mark:](binary_search/binary_search.go) | [:white_check_mark:](binary_search/binarySearch.js) | [:white_check_mark:]
