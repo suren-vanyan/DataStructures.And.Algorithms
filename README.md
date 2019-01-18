@@ -1,4 +1,4 @@
-*☝ Note that this project is meant to be used for learning and researching purposes 
+*☝ Note that this repository  is meant to be used for learning and researching purposes 
 only and it is **not** meant to be used for production.*
 
 | Algorithm | C# |
