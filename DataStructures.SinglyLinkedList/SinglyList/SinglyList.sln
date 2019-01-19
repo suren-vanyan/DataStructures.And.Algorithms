@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinglyList", "SinglyList\SinglyList.csproj", "{7DE76871-7AB8-45A2-9C72-AD3A6210A3CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListNode", "LinkedListNode\LinkedListNode.csproj", "{DD9D5E69-433D-449A-B11B-3E6ADB4EC285}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7DE76871-7AB8-45A2-9C72-AD3A6210A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DE76871-7AB8-45A2-9C72-AD3A6210A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DE76871-7AB8-45A2-9C72-AD3A6210A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9D5E69-433D-449A-B11B-3E6ADB4EC285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9D5E69-433D-449A-B11B-3E6ADB4EC285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9D5E69-433D-449A-B11B-3E6ADB4EC285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9D5E69-433D-449A-B11B-3E6ADB4EC285}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

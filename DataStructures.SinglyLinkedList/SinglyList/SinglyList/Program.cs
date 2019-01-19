@@ -21,8 +21,8 @@ namespace SinglyList
         static void Main(string[] args)
         {
             Node nodeFirst = new Node { Value = 3 };//Initialize of the first Node of the list value 3
+          
             //[3|null]-->[4|null]
-
             Node nodeSecond = new Node { Value = 4 };//Initialize of the second Node of the list value 4
 
             //[3|ref]-->[4|null]
