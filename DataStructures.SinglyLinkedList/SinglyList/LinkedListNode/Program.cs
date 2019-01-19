@@ -20,6 +20,7 @@ namespace LinkedListNode
             firstNode.Next = secondNode;
             Console.WriteLine(firstNode.Value);
             Console.WriteLine(firstNode.Next.Value);
+            
         }
     }
 }
