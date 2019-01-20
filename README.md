@@ -1,5 +1,11 @@
 # ☝ Note that this repository  is meant to be used for learning  purposes 
 
+## :pushpin: Algorithm Complexity Analysis
+| Language | Content |
+|:--------------|:----------------:|
+| :ru: | [:white_check_mark:](https://habr.com/ru/post/196560/) 
+| :us: | [:white_check_mark:](http://discrete.gr/complexity/)
+
 ## :ballot_box_with_check: Implemented Algorithms
 | Algorithm | C# |
 |:--------------|:----------------:|
