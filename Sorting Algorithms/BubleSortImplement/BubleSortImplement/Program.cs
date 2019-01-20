@@ -24,10 +24,10 @@ namespace BubleSortImplement
 
         }
         public static void BubleSort(int [] array) 
-        {
-            bool check = true;//O(1)
+        {      
             for (int i = 0; i < array.Length-1; i++)//2*(a1)*(n-1)d/2*n
-            {                                                                   
+            {
+                bool check = true;//O(1)
                 for (int j = 0; j < array.Length-1-i; j++)//O((n-k)*1)=O(n-k)
                 {
                     if (array[j] > array[j + 1])//O(1)
