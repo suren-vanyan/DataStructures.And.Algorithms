@@ -1,8 +1,8 @@
 # ☝ Note that this repository  is meant to be used for learning  purposes 
 
-## Algorithm Complexity Analysis
--[Russian :ru:](https://habr.com/ru/post/196560/)
--[English :us:](http://discrete.gr/complexity/)
+## :pushpin: Algorithm Complexity Analysis
+[Russian :ru:](https://habr.com/ru/post/196560/)
+[English :us:](http://discrete.gr/complexity/)
 
 ## :ballot_box_with_check: Implemented Algorithms
 | Algorithm | C# |
