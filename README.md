@@ -1,6 +1,6 @@
 # ☝ Note that this repository  is meant to be used for learning  purposes 
 
-# Implemented Algorithms
+## :heavy_check_mark: Implemented Algorithms
 | Algorithm | C# |
 |:--------------|:----------------:|
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) |  [:white_check_mark:]() 
@@ -8,7 +8,7 @@
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) |  [:white_check_mark:]( )
 | [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | |  [:white_check_mark:]( )
 
-# Implemented Data Structures
+## :heavy_check_mark: Implemented Data Structures
 | DataStructures | C# |
 |:--------------|:----------------:|
 | [Linked list](https://en.wikipedia.org/wiki/Linked_list) |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/tree/master/DataStructures.SinglyLinkedList/SinglyList) 
