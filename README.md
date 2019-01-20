@@ -3,7 +3,7 @@
 ## :pushpin: Algorithm Complexity Analysis
 | Language | Content |
 |:--------------|:----------------:|
-### [:ru:](https://habr.com/ru/post/196560/)| [:us:](http://discrete.gr/complexity/)
+| [:ru:](https://habr.com/ru/post/196560/) | [:us:](http://discrete.gr/complexity/)
 
 ## :ballot_box_with_check: Implemented Algorithms
 | Algorithm | C# |
