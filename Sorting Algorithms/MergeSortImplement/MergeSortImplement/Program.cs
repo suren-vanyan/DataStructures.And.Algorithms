@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace MergeSortImplement
 {
+    /// <summary>
+    /// In sorting n objects, merge sort has an average and worst-case performance of O(n log n).
+    /// If the running time of merge sort for a list of length n is T(n), then the recurrence T(n) = 2T(n/2) + n 
+    /// follows from the definition of the algorithm (apply the algorithm to two lists of half the size
+    /// of the original list, and add the n steps taken to merge the resulting two lists).
+    /// The closed form follows from the master theorem for divide-and-conquer recurrences.
+    /// In the worst case, the number of comparisons merge sort makes is given by the sorting numbers.
+    /// These numbers are equal to or slightly smaller than (n ⌈lg n⌉ - 2⌈lg n⌉ + 1),
+    /// which is between (n lg n - n + 1) and (n lg n + n + O(lg n)).[5]
+    /// </summary>
     class Program
     {
-        public static void Swap<T>(T[] array, int firtIndex, int secondIndex)
-        {
-            T temp = array[firtIndex];
-            array[firtIndex] = array[secondIndex];
-            array[secondIndex] = temp;
-
-        }
-
+       
         public static void ArrayCopy(int[] sourceArray, int sourceIndex, int[] destinationArray, int destinationIndex, int length)
         {
             for (int i = sourceIndex, j = destinationIndex; i < length; i++, j++)
@@ -49,8 +52,8 @@ namespace MergeSortImplement
             int leftIndex = 0;
             int rightIndex = 0;
             int temporaryIndex = 0;
-            int length = leftSubArr.Length + rightSubArr.Length;
-            while (length > 0)
+            int totalLength = leftSubArr.Length + rightSubArr.Length;
+            while (totalLength > 0)
             {
                 if (leftIndex >= leftSubArr.Length)
                 {
@@ -68,19 +71,26 @@ namespace MergeSortImplement
                 {
                     array[temporaryIndex++] = rightSubArr[rightIndex++];
                 }
-                length--;
+                totalLength--;
             }
         }
 
-        static void Main(string[] args)
+        public static void PrintArray(int[] array,string content)
         {
-            int[] array = new int[] { 7, 9, 5, 2, 8, 6, 10, 9 };
-            MergeSort(array);
-            Console.WriteLine("After Sorting");
+            Console.WriteLine(content);
             foreach (var item in array)
             {
                 Console.Write(item + " ");
             }
+            Console.WriteLine();
+        }
+        static void Main(string[] args)
+        {
+            int[] array = new int[] { 7, 9, 5, 2, 8, 6, 10, 9 };
+            PrintArray(array, "Before Sorting");
+            MergeSort(array);
+            PrintArray(array, "After Sorting");
+           
         }
     }
 }
