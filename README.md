@@ -15,7 +15,7 @@
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:]( )
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/QuickSortImplement/QuickSortImplement/Program.cs)
 | [QuickSortFromBookRobertSedgewick](https://en.wikipedia.org/wiki/Quicksort) | [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/QuickSortFromBookRobertSedgewick/QuickSortFromBookRobertSedgewick/Program.cs)
-| [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) | |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/MergeSortImplement/MergeSortImplement/Program.cs)
+| [Merge Sort](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort) |   [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/MergeSortImplement/MergeSortImplement/Program.cs)
 
 ## :ballot_box_with_check: Implemented Data Structures
 | DataStructures | C# |
