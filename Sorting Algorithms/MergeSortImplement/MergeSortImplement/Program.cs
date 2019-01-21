@@ -33,14 +33,14 @@ namespace MergeSortImplement
             int[] leftSubArr = new int[leftLength];
             int[] rightSubArr = new int[rightLength];
 
+
+
             ArrayCopy(array, 0, leftSubArr, 0, leftLength);
             ArrayCopy(array, leftLength, rightSubArr, 0, array.Length);
 
-
             MergeSort(leftSubArr);
             MergeSort(rightSubArr);
-
-
+            Merge(array, leftSubArr, rightSubArr);
 
         }
 
@@ -66,15 +66,21 @@ namespace MergeSortImplement
                 }
                 else
                 {
-                    array[temporaryIndex++] = rightSubArr[rightIndex];
+                    array[temporaryIndex++] = rightSubArr[rightIndex++];
                 }
+                length--;
             }
         }
 
         static void Main(string[] args)
         {
-            int[] array = new int[] { 7, 9, 5, 2, 8 };
+            int[] array = new int[] { 7, 9, 5, 2, 8, 6, 10, 9 };
             MergeSort(array);
+            Console.WriteLine("After Sorting");
+            foreach (var item in array)
+            {
+                Console.Write(item + " ");
+            }
         }
     }
 }
