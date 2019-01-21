@@ -10,6 +10,7 @@
 | Algorithm | C# |
 |:--------------|:----------------:|
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort) |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/BubleSortImplement/BubleSortImplement/Program.cs) 
+[Selection Sort](https://www.geeksforgeeks.org/selection-sort/) |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/tree/master/Sorting%20Algorithms/SelectSortImplement) 
 | [Insertion Sort](https://en.wikipedia.org/wiki/Insertion_sort) |  [:white_check_mark:]() 
 | [Binary Search](https://en.wikipedia.org/wiki/Binary_search_algorithm) | [:white_check_mark:]( )
 | [Quicksort](https://en.wikipedia.org/wiki/Quicksort) | [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/QuickSortImplement/QuickSortImplement/Program.cs)
