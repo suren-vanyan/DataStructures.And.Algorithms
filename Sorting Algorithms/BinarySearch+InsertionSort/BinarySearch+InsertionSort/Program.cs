@@ -14,30 +14,30 @@ namespace BinarySearch_InsertionSort
             {
                 int key = array[i];
                 int j = i - 1;
-                while (j>=0&&array[j]>key)
+                while (j >= 0 && array[j] > key)
                 {
                     array[j + 1] = array[j];
                     j--;
                 }
-                array[j+1] = key;
+                array[j + 1] = key;
             }
         }
 
-        static bool BinarySearch(int[] array,int element)
+        static bool BinarySearch(int[] array, int element)
         {
             int min = 0;
             int max = array.Length - 1;
-            
+
             for (int i = min; i <= max; i++)
             {
                 int middle = array.Length / 2;
                 if (element < array[middle])
                     max = middle - 1;
-                if (element > array[middle])
+                else
                     min = middle + 1;
                 if (element == array[middle])
                     return true;
-                
+
             }
 
             return false;
@@ -45,8 +45,8 @@ namespace BinarySearch_InsertionSort
         static void Main(string[] args)
         {
             Random random = new Random();
-            int[] array = new int[8];          
-            GeneratingRandomItem(array,random);
+            int[] array = new int[8];
+            GeneratingRandomItem(array, random);
             Print(array, "Before Sorting");
             InsertionSort(array);
             Print(array, "After Sorting");
@@ -54,16 +54,16 @@ namespace BinarySearch_InsertionSort
 
         }
 
-        static void Print(int[] array,string content)
+        static void Print(int[] array, string content)
         {
             Console.WriteLine(content);
             foreach (var item in array)
             {
-                Console.Write(item+ " ");
+                Console.Write(item + " ");
             }
             Console.WriteLine();
         }
-        static void GeneratingRandomItem(int[] array,Random random)
+        static void GeneratingRandomItem(int[] array, Random random)
         {
 
             for (int i = 0; i < array.Length; i++)
