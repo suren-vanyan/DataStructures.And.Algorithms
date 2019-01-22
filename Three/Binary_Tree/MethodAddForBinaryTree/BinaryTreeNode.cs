@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Binary_Tree
+namespace MethodAddForBinaryTree
 {
-    class BinaryTreeNode<TNode> : IComparable<TNode> where TNode:IComparable<TNode>
+    class BinaryTreeNode<TNode> : IComparable<TNode> where TNode : IComparable<TNode>
     {
         public BinaryTreeNode(TNode value)
         {
@@ -22,11 +22,6 @@ namespace Binary_Tree
             return Value.CompareTo(other);
         }
 
-        public int ComareNode(BinaryTreeNode<TNode> node)
-        {
-            return this.Value.CompareTo(node.Value);
-        }
 
-       
     }
 }
