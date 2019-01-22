@@ -7,7 +7,7 @@
 | :us: | [:white_check_mark:](http://discrete.gr/complexity/)
 
 ## :ballot_box_with_check: Implemented Algorithms
-| Algorithm | C# |
+| Algorithm | C#:[cs] |
 |:--------------|:----------------:|
 | [Bubble Sort](https://en.wikipedia.org/wiki/Bubble_sort) |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/blob/master/Sorting%20Algorithms/BubleSortImplement/BubleSortImplement/Program.cs) 
 [Selection Sort](https://www.geeksforgeeks.org/selection-sort/) |  [:white_check_mark:](https://github.com/suren-vanyan/DataStructures.And.Algorithms/tree/master/Sorting%20Algorithms/SelectSortImplement) 
