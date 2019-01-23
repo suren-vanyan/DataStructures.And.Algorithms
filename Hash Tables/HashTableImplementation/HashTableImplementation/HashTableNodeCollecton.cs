@@ -32,6 +32,7 @@ namespace HashTableImplementation
 
         IEnumerator<Tkey> IEnumerable<Tkey>.GetEnumerator()
         {
+            if(_nodeList!=null)
             foreach (var item in _nodeList)
             {
                 yield return item.Key;
