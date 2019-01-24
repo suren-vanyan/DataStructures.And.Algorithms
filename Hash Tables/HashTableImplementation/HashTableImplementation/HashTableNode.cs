@@ -10,14 +10,14 @@ namespace HashTableImplementation
     {
         public HashTableNode(Tkey key, Tvalue value)
         {
-            _value = value;
+            Value = value;
             _key = key;
         }
 
-        public readonly Tvalue _value;
+       
         public readonly Tkey _key;
 
-        public Tvalue Value { get => _value; }
+        public Tvalue Value { get; set; }
         public Tkey Key { get => _key; }
     }
 }

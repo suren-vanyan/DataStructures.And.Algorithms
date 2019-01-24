@@ -8,25 +8,28 @@ namespace QuickSortFromBookRobertSedgewick
 {
     class QucikSort
     {
+        public static void Swap(int[] array ,int indexOne, int indexTwo)
+        {
+            int temp = array[indexOne];
+            array[indexOne] = array[indexTwo];
+            array[indexTwo] = temp;
+
+        }
         //Robert Sedgewick and Kevin Wayne
         public static int Partition(int[] array, int start, int end)
-        {
-            int temp;//swap helper
+        {          
             int marker = start;//divides left and right subarrays
             for (int i = start; i <= end; i++)
             {
                 if (array[i] < array[end]) //array[end] is pivot
                 {
-                    temp = array[marker]; // swap
-                    array[marker] = array[i];
-                    array[i] = temp;
+                    if(i!=marker)
+                    Swap(array,i,marker);
                     marker += 1;
                 }
             }
             //put pivot(array[end]) between left and right subarrays
-            temp = array[marker];
-            array[marker] = array[end];
-            array[end] = temp;
+            Swap(array,marker,end);
             return marker;
         }
 
@@ -42,7 +45,7 @@ namespace QuickSortFromBookRobertSedgewick
         }
         static void Main(string[] args)
         {
-            int[] array = { 7, 4, 4, 6, 5, 9, 12, 19, 2, 8 };
+            int[] array = { 7, 4, 4, 6, 5, 9,12,18,8};
             Print(array, "Before Sorting");
             QuickSortDividePart(array, 0, array.Length - 1);
 
