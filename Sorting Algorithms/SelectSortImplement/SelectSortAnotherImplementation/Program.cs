@@ -28,19 +28,18 @@ namespace SelectSortAnotherImplementation
 
        // Time Complexity: O(n2) as there are two nested loops.
         public static void SelectSort(int[] array)
-        {
-           
+        {           
             for (int i = 0; i < array.Length; i++)
             {
                int smallestIndex = i;
-                for (int j = i+1; j < array.Length-1; j++)
+                for (int j = i+1; j < array.Length; j++)
                 {
-                    if (array[i] > array[j])
+                    if (array[smallestIndex] > array[j])
                     {
                         smallestIndex = j;
                     }
                 }
-                Swap(ref smallestIndex, ref i);
+                Swap(ref array[smallestIndex], ref array[i]);
             }
 
         }
